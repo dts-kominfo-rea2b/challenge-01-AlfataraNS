@@ -28,7 +28,7 @@ const firstUser = {
     favoriteRestaurant : new Set ([
         'Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi'
     ])
-};
+}
 
 const secondUser = {
     name : 'Wendy',
@@ -37,7 +37,7 @@ const secondUser = {
     email : 'wendy@dingdong.com',
     favoriteColor : new Set (['Blue', 'Black', 'Grey']),
     isHavePet : false,
-    education : [
+    education : new Set ([
         {
             name: 'SD 02',
             city: 'Jakarta',
@@ -58,11 +58,11 @@ const secondUser = {
             city: 'Tangerang',
             graduate: 0
         }
-    ],
+    ]),
     favoriteRestaurant : new Set ([
         'Tempura', 'Bento', 'Sushi', 'Pancake', 'Padang', 'Katsu', 'Geprek', 'Pancake', 'Eggy'
     ])
-};
+}
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [firstUser, secondUser];
