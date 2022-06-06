@@ -7,7 +7,7 @@ const firstUser = {
     age : 17,
     email : 'monica@dingdong.com',
     favoriteColor : new Set (['Yellow', 'Pink', 'White', 'Purple']),
-    isHavePet : 'Yes',
+    isHavePet : true,
     education : [
         {
             name: 'SD 01',
@@ -22,7 +22,7 @@ const firstUser = {
         {
             name: 'SMA 03',
             city: 'Tangerang',
-            graduate: '-'
+            graduate: 0
         }
     ],
     favoriteRestaurant : new Set ([
@@ -36,7 +36,7 @@ const secondUser = {
     age : 23,
     email : 'wendy@dingdong.com',
     favoriteColor : new Set (['Blue', 'Black', 'Grey']),
-    isHavePet : 'No',
+    isHavePet : false,
     education : [
         {
             name: 'SD 02',
@@ -56,7 +56,7 @@ const secondUser = {
         {
             name: 'Universitas Maju',
             city: 'Tangerang',
-            graduate: '-'
+            graduate: 0
         }
     ],
     favoriteRestaurant : new Set ([
