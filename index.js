@@ -8,7 +8,7 @@ const firstUser = {
     email : 'monica@dingdong.com',
     favoriteColor : new Set (['Yellow', 'Pink', 'White', 'Purple']),
     isHavePet : true,
-    education : [
+    education : new Set([
         {
             name: 'SD 01',
             city: 'Jakarta',
@@ -24,7 +24,7 @@ const firstUser = {
             city: 'Tangerang',
             graduate: 0
         }
-    ],
+    ]),
     favoriteRestaurant : new Set ([
         'Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi'
     ])
